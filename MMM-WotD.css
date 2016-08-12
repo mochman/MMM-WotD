@@ -1,0 +1,14 @@
+.region table {
+	width: 350px;
+}
+.underlined {
+	font-family: "Roboto Condensed", sans-serif;
+	font-size:16px;
+	line-height:20px;
+	font-weight:500;
+	text-decoration:underline;
+}	
+
+.uppercased:first-letter {
+	text-transform: uppercase;
+}
