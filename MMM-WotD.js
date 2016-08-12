@@ -15,7 +15,6 @@ Module.register("MMM-WotD",{
 		animationSpeed: 2000,
 		retryDelay: 2500,
 		initialLoadDelay: 1000
-
 	},
 
 	start: function() {
@@ -24,6 +23,7 @@ Module.register("MMM-WotD",{
 		this.wordDef = "";
 		this.wordEt = "";
 		this.loaded = false;
+		this.scheduleUpdate(this.config.initialLoadDelay);		
 	},
 
 	getStyles: function() {
